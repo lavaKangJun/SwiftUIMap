@@ -15,6 +15,7 @@
 		51F8407B29C2397F00A5AE6F /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8407A29C2397F00A5AE6F /* LocationsDataService.swift */; };
 		51F8407D29C23A4600A5AE6F /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8407C29C23A4600A5AE6F /* LocationsView.swift */; };
 		51F8407F29C23CC000A5AE6F /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8407E29C23CC000A5AE6F /* LocationsViewModel.swift */; };
+		51F8408129C3786D00A5AE6F /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F8408029C3786D00A5AE6F /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		51F8407A29C2397F00A5AE6F /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		51F8407C29C23A4600A5AE6F /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		51F8407E29C23CC000A5AE6F /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		51F8408029C3786D00A5AE6F /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				51F8407C29C23A4600A5AE6F /* LocationsView.swift */,
+				51F8408029C3786D00A5AE6F /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F8407B29C2397F00A5AE6F /* LocationsDataService.swift in Sources */,
+				51F8408129C3786D00A5AE6F /* LocationsListView.swift in Sources */,
 				51F8407F29C23CC000A5AE6F /* LocationsViewModel.swift in Sources */,
 				51F8406729C236D900A5AE6F /* ContentView.swift in Sources */,
 				51F8407D29C23A4600A5AE6F /* LocationsView.swift in Sources */,
