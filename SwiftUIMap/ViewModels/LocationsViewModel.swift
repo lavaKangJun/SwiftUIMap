@@ -26,6 +26,8 @@ class LocationsViewModel: ObservableObject {
     // 이 값이 변경되는데 전체 다시그림
     @Published var showLocationList: Bool = false
     
+    @Published var sheetLocation: Location? = nil
+    
     init() {
         self.locations = LocationsDataService.locations
         self.mapLocation = LocationsDataService.locations.first!
